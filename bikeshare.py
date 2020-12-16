@@ -188,14 +188,14 @@ def raw_decision(df):
 
     raw_decision = input("\nWould you like to see 5 lines of RAW data, type yes or no?\n").strip().lower()
     while raw_decision.lower() != 'no':
-        start_point=0
-        end_point=5
+        starting_point=0
+        ending_point=5
         cont ="yes"
         while cont == "yes":
-            print(df.iloc[start_point:end_point,:])
+            print(df.iloc[starting_point:ending_point,:])
             cont = input(" Shall we continue, do you want to see the next fiive rows? Enter - yes or no?")
-            start_point+=5
-            end_point+=5
+            starting_point+=5
+            ending_point+=5
             if cont != "yes":
                 raw_decision = "no"
     print('-'*30)
