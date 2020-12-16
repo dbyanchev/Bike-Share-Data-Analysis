@@ -75,6 +75,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
+    print('-'*30)
     return df
 
 
