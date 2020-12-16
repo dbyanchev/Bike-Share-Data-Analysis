@@ -35,7 +35,7 @@ def get_filters():
         day=input("Please try again, something in the input was incorrect ").strip().lower()
     print("Thank you, the Day filter was set to {}! \n".format(day).title())
 
-    print('-'*40)
+    print('-'*30)
     return city, month, day
 
 
@@ -101,7 +101,7 @@ def time_stats(df):
     print('Most Frequent Start Hour:', popular_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def station_stats(df):
@@ -125,7 +125,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def trip_duration_stats(df):
@@ -140,7 +140,7 @@ def trip_duration_stats(df):
     print("\nAvarage trip duration was \n", time.strftime("%H:%M:%S", time.gmtime(df['Trip Duration'].mean())))
 
     print("\nThis took %s seconds.\n" % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def user_stats(df):
@@ -176,7 +176,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 def raw_decision(df):
 
@@ -197,7 +197,7 @@ def raw_decision(df):
             end_point+=5
             if cont != "yes":
                 raw_decision = "no"
-    print('-'*40)
+    print('-'*30)
     print("Thank you, that was the end of the RAW DATA report\n")
 
 
