@@ -1,6 +1,6 @@
 ### CREATION DATE : DEC - 2020
 The project was created DEC-2020.
-2nd project of Udacity Nanodegree Program "Programming for Data Science with Python"
+2nd project from the Udacity Nanodegree Program "Programming for Data Science with Python"
 
 
 ### Bike Share Data
