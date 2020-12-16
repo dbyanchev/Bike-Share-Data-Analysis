@@ -4,7 +4,7 @@ The project was created DEC-2020.
 
 
 ### Bike Share Data
-The aim of the Project is to track data of bike rentals in three major cities in  USA.
+The Project aims to track data of bike rentals in three major cities in  USA.
 
 
 ### Description
